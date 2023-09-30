@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phrase_generator"
+version = "0.0.0"
+description = "Generates random phrases from a dictionary of words."
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = []
+classifiers = [
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = [""]
+include = ["phrase_generator"]
+namespaces = false
+
+[tool.setuptools.data]
+phrase_generator = ["*.json"]
