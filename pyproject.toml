@@ -18,5 +18,5 @@ where = [""]
 include = ["phrase_generator"]
 namespaces = false
 
-[tool.setuptools.data]
+[tool.setuptools.package-data]
 phrase_generator = ["*.json"]
